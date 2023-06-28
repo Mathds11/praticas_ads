@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface</title>
+    <link rel="stylesheet" href="../correto/Estetica.css">
+</head>
+<body>
+    <div id="geral">
+        <div id="dentro">
+        <xmp id="enunciado">Criar uma aplicação que solicite a leitura anterior e a leitura atual da energia de uma residência,
+calcule o consumo, mostrando o resultado em uma caixa de texto (não editável). O programa deve conter,
+ainda, uma caixa de checagem (<input type="checkbox">) para que seja informado se o consumidor é de baixa renda.
+Mostre o valor a ser pago pelo cliente sabendo que o valor do Kw normal é de R$ 0,76 e para baixa renda é de R$ 0,41.</xmp>
+            <br>
+            <div>
+                <legend id="apresent" style="font-family: Arial, Helvetica, sans-serif;"><b>Interface de calculo para pagamento por consumo</b></legend><br><br>
+                <form method="dialog" id="form">
+                    <label class="txts" id="lb1" style="font-family: Arial, Helvetica, sans-serif;">Leitura atual:</label>
+                    <input class="lacuna" type="number" id="numb1" placeholder="kWhs utilizados atualmente"><br><br>
+                    <label class="txts" id="lb2" style="font-family: Arial, Helvetica, sans-serif;">Leitura anterior:</label>
+                    <input class="lacuna" type="number" id="numb2" placeholder="kWhs utilizados anteriormente"><br><br>
+                    <!--<label class="txts" id="lb3" style="font-family: Arial, Helvetica, sans-serif;">Consumo:</label>
+                    <input class="lacuna" type="number" id="numb3"><br><br>-->
+                    <input type="checkbox" id="chbox">
+                    <label id="lb4" style="font-family: Arial, Helvetica, sans-serif;">Baixa renda</label><br><br>
+                    <button id="bt1" style="font-family: Arial, Helvetica, sans-serif;" onclick="btCalculo()">Calcular</button>
+                    <button id="bt2" style="font-family: Arial, Helvetica, sans-serif;" onclick="btLimpar()">Limpar</button><br><br>
+                    <legend id="Cons" style="font-family: Arial, Helvetica, sans-serif;">Consumo:</legend><br><br>
+                    <span id="txtbox"></span>
+                    <textarea name="textbox" id="txtbox1" cols="30" rows="10" disabled placeholder="Valor a pagar por consumo"></textarea>
+                </form>        
+            </div>
+        </div>    
+    </div>
+    <script src="../correto/sistema.js"></script>
+</body>
+</html>

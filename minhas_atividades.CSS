@@ -1,0 +1,267 @@
+.ativs {
+    height: 1050px;
+    height: 1600px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../Trabalho-pagina/12_Minhas_Atividades/background.jpg);
+}
+
+#Titulo {
+    margin-left: 80px;
+    width: 20%;
+    height: auto;
+    color: aliceblue;
+}
+
+.coluna {
+    border-radius: 5%;
+    width: 500px;
+    height: 1350px;
+    top: 50px;
+    left: 50px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+#ativ1 {
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 30px;
+    position: relative;
+}
+
+#ativ2 {
+    width: 50px;
+    height: auto;
+    top: 20px;
+    left: 30px;
+    position: relative;
+   
+}
+
+#ativ3 {
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 30px;
+    position: relative;
+     
+}
+
+#ativ4 {
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    left: 30px;
+    position: relative;  
+    
+}
+
+#ativ5 {
+    width: 50px;
+    height: 50px;
+    top: -50px;
+    left: 30px;
+    position: relative;
+       
+}
+
+#ativ6 {
+    width: 50px;
+    height: 50px;
+    top: -80px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ7 {
+    width: 50px;
+    height: 50px;
+    top: -110px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ8 {
+    width: 50px;
+    height: 50px;
+    top: -140px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ9 {
+    width: 50px;
+    height: 50px;
+    top: -170px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ10 {
+    width: 50px;
+    height: 50px;
+    top: -200px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ11 {
+    width: 50px;
+    height: 50px;
+    top: -230px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ12 {
+    width: 50px;
+    height: 50px;
+    top: -260px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ13 {
+    width: 50px;
+    height: 50px;
+    top: -290px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ14 {
+    width: 50px;
+    height: 50px;
+    top: -310px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ15 {
+    width: 50px;
+    height: 50px;
+    top: -340px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ16 {
+    width: 50px;
+    height: 50px;
+    top: -370px;
+    left: 30px;
+    position: relative;  
+}
+
+#ativ17 {
+    width: 50px;
+    height: 50px;
+    top: -400px;
+    left: 30px;
+    position: relative;  
+}
+
+
+#txt1 {
+    left: 100px;
+    top: -10px;
+    position: relative;
+}
+
+#txt2 {
+    left: 100px;
+    top: -40px;
+    position: relative;
+}
+
+#txt3 {
+    left: 100px;
+    top: -60px;
+    position: relative;
+}
+
+#txt4 {
+    left: 100px;
+    top: -80px;
+    position: relative;
+}
+
+#txt5 {
+    left: 100px;
+    top: -110px;
+    position: relative;
+}
+
+#txt6 {
+    left: 100px;
+    top: -140px;
+    position: relative;
+}
+
+#txt7 {
+    left: 100px;
+    top: -170px;
+    position: relative;
+}
+
+#txt8 {
+    left: 100px;
+    top: -200px;
+    position: relative;
+}
+
+#txt9 {
+    left: 100px;
+    top: -230px;
+    position: relative;
+}
+
+#txt10 {
+    left: 100px;
+    top: -260px;
+    position: relative;
+}
+
+#txt11 {
+    left: 100px;
+    top: -290px;
+    position: relative;
+}
+
+#txt12 {
+    left: 100px;
+    top: -320px;
+    position: relative;
+}
+
+#txt13 {
+    left: 100px;
+    top: -350px;
+    position: relative;
+}
+
+#txt14 {
+    left: 100px;
+    top: -370px;
+    position: relative;
+}
+
+#txt15 {
+    left: 100px;
+    top: -400px;
+    position: relative;
+}
+
+#txt16 {
+    left: 100px;
+    top: -430px;
+    position: relative;
+}
+
+#txt17 {
+    left: 100px;
+    top: -460px;
+    position: relative;
+}

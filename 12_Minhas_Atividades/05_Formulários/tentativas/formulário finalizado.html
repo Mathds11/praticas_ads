@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="centralizando.css">
+    <title>Formulário de Inscrição em Evento</title>
+    <h2>Incrições válidas até o dia 25 de julho!</h2>
+    </head>
+<body style="text-align: center;">
+    <form action="" style="display:inline-block">
+        <fieldset style="text-align: center;">    <h1>Formulário de Inscrição de Evento</h1> <!-- aqui vai o nome do formulário-->
+    <br><br>
+    <label style="text-align:center;" form="center">Nome:</label>
+    <input type="text" name="nome" id="nome"
+        placeholder="Nome completo">
+    <br><br>
+    <label style="text-align:center;" form="center">E-mail:</label>
+    <input type="text" name="E-mail"
+        placeholder="Ex.: usuario@gmail.com">
+    <br><br>  
+    <label form="center" style="text-align: right">Sexo:</label>
+        <input type="radio" name="Sexo" value="Masculino">Masculino &nbsp;&nbsp;
+        <input type="radio" name="Sexo" value="Feminino">Feminino &nbsp;&nbsp;
+        <!--<td>Declarar Sexualidade:</td><input type="text" name="sem declaração" placeholder="Me identifico como um tijolo">&nbsp;&nbsp;-->
+    <br><br>
+        <Label form="center" style="text-align: center;">
+    Data de Nascimento:<input type="date" name="dtnasc">
+    <br><br>
+    <label form="center">Telefone:</label>
+    <input form="center" type="text" name="Telefone"
+        placeholder="Celular ou Telefone Fixo">
+</fieldset style="text-align: center">
+<br>
+</label>
+<h1>Informações da instituição</h1>
+<p>Preencha os campos abaixo com as informações da empresa em que trabalha</p>
+<fieldset form="center" style="text-align: center;">
+    <link rel="stylesheet" href="centralizando.css">
+    <br><br>
+    <label form="center" style="text-align: center;">Empresa:</label>
+        <input type="text" name="Empresa" style="text-align: center;" width="80">
+        <br><br>
+    <label form="center" style="text-align: center;">Endereço Completo:</label>
+        <input type="text" name="Endereço Completo"
+            placeholder="Bairro, Rua e nº residencial">
+        <br><br>
+    <label form="center" style="text-align: center;">Coloque alguma Referência:</label>
+        <input type="text" name="colocar referência"
+        placeholder="Ex.: Em frente a loja 'x'">
+        <br> <br>
+    <label form="center" style="text-align: center;">Cidade:</label>
+        <input type="text" name="Empresa" style="text-align: center;">
+        <br><br>              
+    <label form="center" style="text-align: center;">Estado:</label>
+    <td>            
+        <select name="UF" id="">
+            <option selected disabled>Selecione</option>
+            <option value="">São Paulo</option>
+            <option value="">Rio de Janeiro</option>
+            <option value="">Minas Gerais</option>
+            <option value="">Rio Grande do Sul</option>
+            <option value="">Paraná</option>
+            <option value="">Santa Catarina</option>
+            <option value="">Bahia</option>
+            <option value="">Distrito Federal</option>
+            <option value="">Goiás</option>
+            <option value="">Pernambuco</option>
+            <option value="">Pará</option>
+            <option value="">Ceará</option>
+            <option value="">Mato Grosso</option>
+            <option value="">Espírito Santo</option>
+            <option value="">Mato Grosso do SUl</option>
+            <option value="">Amazonas</option>
+            <option value="">Maranhão</option>
+            <option value="">Rio Grande no Norte</option>
+            <option value="">Paraíba</option>
+            <option value="">Alagoas</option>
+            <option value="">Piauí</option>
+            <option value="">Rondônia</option>
+            <option value="">Sergipe</option>
+            <option value="">Tocantins</option>
+            <option value="">Amapá</option>
+            <option value="">Acre</option>
+            <option value="">Roraima</option>
+        </select>
+    </td>
+    <br><br>
+    <label form="center" style="text-align:center;">Quant. de Funcionários:</label>    
+        <input type="text" name="Funcionários">
+    <br><br>
+    <label form="righ" style="text-align: center;">Observações:</label>
+        <input type="text" name="observações" style="height: 100px; width: 160px;">
+    <br><br>
+    </fieldset>
+    <br><br>
+    <td style="text-align: right;">Recibo:</td>
+    <br>
+    <td for="nsuup"></td>
+    <input type="checkbox">Emitir em nome da Instituição</td>
+    <br><br>
+    <input type="submit" value="Enviar" name="Enviar">  
+</body>
+</html>

@@ -1,0 +1,86 @@
+html, body {
+    margin: 0px;
+    padding: 0px;  
+}
+
+.Geral {
+    width: 30%;
+    height: auto;
+}
+
+#Logo {
+    margin: 10px;
+}
+.Logo {
+    border: 1px solid black;
+    width: 97%;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 2%;
+    text-align: left;
+    background-color:rgb(199, 196, 196);
+}
+
+.Nav-Side-Bar {
+    border: 1px solid black;
+    width: 24%;
+    height: 350px;
+    margin: 10;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: rgb(238, 238, 238);
+}
+
+.Header {
+    border: 1px solid black;
+    width: 70.6%;
+    height: 50px;
+    margin: 10;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: rgb(199, 196, 196);
+}
+
+
+
+.txt {
+    margin-top: 140px;
+    text-align: center;
+}
+
+#ba {
+    text-align: center;
+}
+.BodyArea {
+    border: 1px solid black;
+    width: 70.6%;
+    height: 293.3px;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: rgb(199, 196, 196);
+}
+
+
+
+.Footer {
+    border: 1px solid black;
+    width: 97%;
+    height: 50px;
+    margin: 10px;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    float:left;
+    background-color: rgb(199, 196, 196);
+
+}

@@ -1,0 +1,93 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Geral {
+    width: 30%;
+    height: auto;
+}
+
+#Logo {
+    margin: 10px;
+}
+.Logo {
+    border: 1px solid black;
+    width: 97%;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 2%;
+    text-align: left;
+    background-color:rgb(199, 196, 196);
+}
+
+.Navigation {
+    border: 1px solid black;
+    width: 97%;
+    height: 50px;
+    margin: 10;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    background-color: rgb(199, 196, 196);
+}
+
+.Header {
+    border: 1px solid black;
+    width: 97%;
+    height: 50px;
+    margin: 10;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    background-color: rgb(199, 196, 196);
+}
+
+
+
+.txt {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.SideBar {
+    border: 1px solid black;
+    width: 24%;
+    height: 150px;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: rgb(199, 196, 196);
+}
+.BodyArea {
+    border: 1px solid black;
+    width: 71.7%;
+    height: 150px;
+    margin-left: 1%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: rgb(199, 196, 196);
+}
+
+
+
+.Footer {
+    border: 1px solid black;
+    width: 97%;
+    height: 50px;
+    margin: 10px;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    float:left;
+    background-color: rgb(199, 196, 196);
+
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox-container {
+    width: 100%;
+    height: auto;
+}
+
+.Logo {
+    border: solid black;
+    width: 250px;
+    height: 50px;
+    background-color: solid rgb(58, 57, 57);
+    text-align: center;
+}
+
+.Navigation {
+
+}
+
+.Header {
+
+}
+
+.Sider-Bar {
+
+}
+
+.Body-Area {
+
+}
+
+.Footer {
+
+}

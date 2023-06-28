@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulario</title>
+</head>
+<style>
+body{
+    text-align: center;
+    font-size: small;
+    font-family: Verdana;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+form{
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 1px 1px 10px #999;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+fieldset{
+    width: 90%;
+    text-align: center;
+    margin-left: 20px;
+}
+label{
+    padding: 5px 5px 5px 0;
+    float: right;
+    margin-right: 30%;
+}
+textarea, input, select, option,{
+    float: right;
+}
+h1, h2, p{
+    text-align: left;
+    margin-left: 20px;
+}
+</style>
+<body>
+    <form action="">
+        <h1>Formulário de Inscrição em Envento</h1>
+        <fieldset>
+            <label>Nome completo: <input type="text" name="nome"></label>
+            <br>
+            <label>E-mail: <input type="email" name="email"></label>
+            <br>
+            <label>Sexo: 
+                <input type="radio" name="sexo" value="m">Masculino
+                <input type="radio" name="sexo" value="f">Feminino
+            </label>
+            <br>
+            <label>Cargo: <input type="text" name="cargo"></label>
+            <br>
+            <label>Data de Nascimento: <input type="date" name="dtnasc"></label>
+            <br>
+            <label>Telefone: <input type="number" name="tel"></label>
+        </fieldset>
+        <h2>Informações da instituição</h2>
+        <p>Preencha os campos abaixo com as informações da empresa em que trabalha.</p>
+        <fieldset>
+            <label>Empresa: <input type="text" name="empresa"></label>
+            <br>
+            <label>Endereço Completo: <input type="text" name="endereco"></label>
+            <br>
+            <label>Cidade: <input type="text" name="cidade"></label>
+            <br>
+            <label>Estado: 
+                <select name="UF" id="">
+                    <option selected disabled>Selecione</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Minas Gerais</option>
+                    <option value="">Rio Grande do Sul</option>
+                    <option value="">Paraná</option>
+                    <option value="">Santa Catarina</option>
+                    <option value="">Bahia</option>
+                    <option value="">Distrito Federal</option>
+                    <option value="">Goiás</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Pará</option>
+                    <option value="">Ceará</option>
+                    <option value="">Mato Grosso</option>
+                    <option value="">Espírito Santo</option>
+                    <option value="">Mato Grosso do SUl</option>
+                    <option value="">Amazonas</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Rio Grande no Norte</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Alagoas</option>
+                    <option value="">Piauí</option>
+                    <option value="">Rondônia</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Tocantins</option>
+                    <option value="">Amapá</option>
+                    <option value="">Acre</option>
+                    <option value="">Roraima</option>
+                </select>
+            </label>
+            <br>
+            <label>Quant. Funcionários: <input type="number" name="cargo"></label>
+            <br>
+            <label>Observações: 
+                <label style="float: right; width: 160px; height: 1000px;" name="obs" cols="20" rows="5"></label>
+            </label>
+            <br>
+        </fieldset>
+        <br>
+        <label>Recebido: <input type="checkbox" name="tel">Emitir em nome da instituição</label>
+        <br>
+        <input style="margin-bottom: 30px; margin-top: 30px; margin-left: 20px;" type="submit" value="Fazer Inscrição">
+    </form>
+</body>
+</html>

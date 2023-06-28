@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Poppins:wght@300;400&display=swap');
+
+html, body {
+    max-width:min-content 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.geral {
+    width: 100%;
+    height: auto;
+}
+
+.Faixa {
+    width: -50px;
+    height: -50px;
+    left: -320px;
+    top: -870px;
+    position: absolute;
+}
+
+#background {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    left: -100px;
+    top: -140px;
+}
+
+.Flexbox-container {
+    width: 30%;
+    height: auto;
+}
+
+.Flexbox {
+    border: 1px solid black;
+    width: 20%;
+    height: 50px;
+    background-color:rgb(199, 196, 196);
+    margin: 2%;
+    line-height: 10%;
+    text-align: center;    
+    margin-left: 2.5%;
+    line-height: 250%;
+    position: absolute;
+}
+
+
+.txt {
+    text-align: center;
+    margin-top: 65px;
+}
+
+#foto1 {
+    width: 800px;
+    height: 800px;
+    left: -150px;
+    top: -250px;
+    position: absolute;
+}
+
+#foto2 {
+    width: 800px;
+    height: 800px;
+    margin-left: 110px;
+    margin-top: -130px;
+    position: absolute; 
+}
+#foto3 {
+    width: 800px;
+    height: 800px;
+    margin-left: -150px;
+    margin-top: 60px;
+    position: absolute; 
+}
+
+#foto4 {
+    width: 800px;
+    height: 800px;
+    margin-left: 650px;
+    margin-top: -350px;
+    position: absolute;
+}
+
+#foto5 {
+    width: 800px;
+    height: 800px;
+    margin-left: 380px;
+    margin-top: -190px;
+    position: absolute; 
+}
+
+#foto6 {
+    width: 800px;
+    height: 800px;
+    margin-left: 650px;
+    margin-top: 5px;
+    position: absolute;  
+}
+
+.Footer {
+    font-family: "Poppins", sans-serif;
+    border: 1px solid black;
+    width: 97%;
+    height: 50px;
+    margin: 10px;
+    margin-left: 2%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    background-color: rgb(199, 196, 196);
+
+}

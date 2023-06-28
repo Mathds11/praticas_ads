@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativ 2</title>
+</head>
+<body>
+ <fieldset style="width: 40%;">
+            <legend>Atividade 2</legend>
+            <xmp>Crie uma página web com três caixas de texto (<input type='number'>) onde serão informados os valores,
+em seguida crie um botão que ao ser clicado chame uma função, que receba estes três números e verifique
+o maior dos três números dados e mostre uma mensagem, em um parágrafo, informando o resultado para o usuário.</xmp>
+            <br>
+            <form method="dialog" id="form">
+                <div for="caixa1">Digite o 1º valor:</div>
+                <input type="number" id="val1"><br>
+                <div for="caixa2">Digite o 2º valor:</div>
+                <input type="number" id="val2"><br>
+                <div for="caixa3">Digite o 3º valor:</div>
+                <input type="number" id="val3">
+                <br><br>
+                <button id="result" onclick="BtFuncao()">Resultado</button>
+                <p id="resultado">Exibir resultado:</p>
+            </form>
+        </fieldset>
+        <script src="../12 - formulario Java/ativ2.js"></script>
+</body>
+</html>
