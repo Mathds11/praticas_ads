@@ -6,7 +6,7 @@ btn1.onclick = function(){
     n = 1;
 
     if(n == 1){
-    document.getElementById('estilo').href="lista_contatos2.css";
+    document.getElementById('estilo').href="lista_contatos.css";
     };
 }
 
@@ -14,6 +14,6 @@ btn2.onclick = function(){
     n = 0;
 
     if(n == 0){
-    document.getElementById('estilo').href="lista_contatos.css";
+    document.getElementById('estilo').href="lista_contatos2.css";
     };
 }

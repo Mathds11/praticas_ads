@@ -1,0 +1,84 @@
+body, html{
+    margin: 0;
+    padding: 16px 0;
+    background-color: aqua;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list{
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+
+}
+.list-item{
+    flex-basis: 200px;
+
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    background-image: url(imagens/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.list-item-imagem img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+a img{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.info{
+    margin: 0;
+}
+
+.info-name{
+    font-size: 14px;
+    margin: 0;
+}
+
+.info-email{
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.btn{
+    display: flex;
+    background-color: #aaa;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.btn-layout button{
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: #aaa;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.btn-layout button:hover{
+    background-color: #fff;
+}
