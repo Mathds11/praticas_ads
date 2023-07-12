@@ -123,13 +123,14 @@ a.selecao{
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    color: #fff;
-    background-color: #000;
+    background-color: greenyellow;
+    color: #000;
     justify-content: end;
     text-transform: uppercase;
 }
 
 .info-item a:hover{
-    background-color: greenyellow;
-    color: #000;
+    outline: 2px solid greenyellow;
+    background-color: transparent;
+    color: #fff;
 }

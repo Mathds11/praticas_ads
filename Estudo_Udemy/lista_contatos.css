@@ -13,10 +13,11 @@ body, html{
     flex-direction: column;
 }
 
-.main-title{
+.main-title p{
     padding-bottom: 15px;
     font-size: 24px;
     color: #333;
+    text-align: center;
 }
 
 .container{
@@ -96,4 +97,28 @@ a img{
 
 .btn-layout button:hover{
     background-color: #fff;
+}
+
+.list-nav{
+    display: flex;
+    justify-content: space-between;    
+    font-size: 18px;
+    gap: 15px;
+}
+
+.menu{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul:hover a{ 
+    color: #ccc;
+}
+
+ul:hover a:hover{
+    color: #000;
+    border-bottom: 1px solid black;
 }

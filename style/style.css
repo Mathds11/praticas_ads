@@ -6,16 +6,15 @@ body, html{
 #menu{
     width: 100%;
     display: flex;
-    flex-flow: row wrap; /* colocar elementos em linhas e quebra de linha*/
-    justify-content: center; /* alinha elementos*/
+    justify-content: center;
+    gap: 50px;
 }
 
 .menu{
-    width: 150px;
-    list-style: none;
+    list-style-type: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 a{
     text-decoration: none;
