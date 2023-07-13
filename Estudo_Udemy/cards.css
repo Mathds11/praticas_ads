@@ -43,24 +43,25 @@ body{
 .cards{
     width: 100%;
     max-width: 800px;
-    padding: 10px 15px;
+    margin: auto;
+    padding: 15px;
+    gap: 15px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     background-color: #fff;
     color: #fff;
 }
 
 .cards-item{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 5px;
+    flex-basis: 250px;
+    /* padding: 10px; */
+    flex-grow: 1;
 
 }
 
 .cards-item img{
     width: 100%;
-    max-width: 250px;
+    display: block;
 }
 
 .cards-item p{
