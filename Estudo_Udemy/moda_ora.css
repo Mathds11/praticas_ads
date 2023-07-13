@@ -1,0 +1,99 @@
+:root{
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&family=Viaoda+Libre&display=swap');
+  --font-title: 'Viaoda Libre';
+  --font-p: 'Roboto', sans-serif;
+}
+
+html{
+    min-height: 100%;
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo{
+    width: 100%;
+    background-color: #162028;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-item, a{
+    font-family: var(--font-p);
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #425564;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.menu-item a:hover{
+    color: #fff;
+}
+
+.header-logo h1{
+    font-family: var(--font-title);
+    font-weight: normal;
+    font-size: 36px;
+    color: #fff;
+    flex-grow: 1;
+    flex-basis: 50%;
+    margin: 0;
+    padding-left: 150px;
+}
+
+.header-logo nav{
+    flex-grow: 1;
+    flex-basis: calc(50% - 150px);
+}
+
+.header-logo img{
+    flex-grow: 1;
+}
+
+.section-1{
+    padding: 10rem 15rem;
+}
+
+.section-1-container-1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1-container-1 h1{
+    font-weight: normal;
+    font-family: var(--font-title);
+    font-size: 4.6rem;
+}
+
+.section-1-container-1 p{
+    font-family: var(--font-p);
+    font-size: 2.1rem;
+    padding-bottom: 10rem;
+    line-height: 3rem;
+}
+
+.section-1-container-2{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section-1-container-2 h2{
+    font-family: var(--font-p);
+    font-size: 1.8rem;
+}
+
+.section-1-container-2 p{
+    font-family: var(--font-p);
+    font-size: 1.4rem;
+
+}
