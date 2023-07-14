@@ -8,47 +8,62 @@
     <link rel="stylesheet" href="aprenser.css">
 </head>
 <body>
-    <header class="main-header container">
-        <img src="img_aprenser/logoAprenser.png" alt="logotipo">
-        <nav>
-            <ul class="menu">
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#nossa_escola">Nosso escola</a></li>
-                <li><a href="#contatos">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="cor-1">
+        <header class="main-header container">
+            <img src="img_aprenser/logoAprenser.png" alt="logotipo">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#nossa_escola">Nosso escola</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
 
+    <div class="cor-gradient">
     <section class="container content-1">
-        <h1>O saber é o que tranforma nosso <span>ser</span></h1>
-        <a href="#" class="btn">Saiba mais</a>
+        <div class="content-1-info">
+            <h1>O saber é o que tranforma nosso <span>ser</span></h1>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
         <img src="img_aprenser/HeroImage.png" alt="Mulher segurnado uma flor">
     </section>
+    </div>
 
+    <div class="cor-2">
     <section class="container content-2" id="cursos">
         <h1>Principais Cursos</h1>
-        <article>
-            <img src="img_aprenser/curso-design-1.png" alt="Design">
+        <article class="container-cards">
             <div class="cards">
-                <h2>Design para web</h2>
-                <p>O curso Design para Web é perfeito para aqueles que desejam aprender a criar designs atraentes e funcionais para sites e aplicativos móveis.</p>
+                <img src="img_aprenser/curso-design-1.png" alt="Design">
+                <div>
+                    <h2>Design para web</h2>
+                    <p>O curso Design para Web é perfeito para aqueles que desejam aprender a criar designs atraentes e funcionais para sites e aplicativos móveis.</p>
+                </div>
             </div>
 
-            <img src="img_aprenser/curso-design-2.png" alt="Front end">
             <div class="cards">
-                <h2>Fornt End Devolper</h2>
-                <p>Aprenda HTML, CSS e Javascript e crei interfaces ricas e semânticas para páginas web, aplicativos on-line ou até mesmo aplicações para aparelhos celulares.</p>
+                <img src="img_aprenser/curso-design-2.png" alt="Front end">
+                <div>
+                    <h2>Fornt End Devolper</h2>
+                    <p>Aprenda HTML, CSS e Javascript e crei interfaces ricas e semânticas para páginas web, aplicativos on-line ou até mesmo aplicações para aparelhos celulares.</p>
+                </div>
             </div>
 
-            <img src="img_aprenser/curso-design.png" alt="Back end">
             <div class="cards">
-                <h2>Back End Devolper</h2>
-                <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de dados e aprenderá como funciona o protocolo HTTP na prática.</p>
+                <img src="img_aprenser/curso-design.png" alt="Back end">
+                <div>
+                    <h2>Back End Devolper</h2>
+                    <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de dados e aprenderá como funciona o protocolo HTTP na prática.</p>
+                </div>
             </div>
         </article>
         <a href="#" class="btn">Ver mais cursos</a>
     </section>
+    </div>
 
+    <div class="cor-3">
     <section class="container content-3" id="nossa_escola">
         <img src="img_aprenser/nossa-escola.png" alt="Mulher com notbook">
         <div>
@@ -56,6 +71,7 @@
             <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.</p>
         </div>
     </section>
+    </div>
 
     <section class="container content-4" id="contatos">
         <h1>Contatos</h1>
@@ -70,7 +86,7 @@
         </address>
     </section>
 
-    <footer class="footer">
+    <footer class="footer cor-1">
         <p>Desenvolvido por Serliv</p>
     </footer>
 </body>
