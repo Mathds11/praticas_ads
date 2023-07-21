@@ -1,0 +1,94 @@
+:root{
+    --cor-azul: rgb(21, 111, 171);
+}
+
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 95vh;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--cor-azul);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: white;
+    padding: 2em .5em;
+    box-shadow: -1px 0 2px #000;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    gap: 1em;
+    min-width: 40em;
+    max-width: 45em;
+}
+
+.container label{
+    text-transform: uppercase;
+}
+
+.title{
+    margin: .2em 0;
+    font-size: 1.8em;
+    color: var(--cor-azul);
+}
+
+.user-login, .user-pass, .user-email{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--cor-azul);
+    outline: none;
+    padding: 0;
+    transition: padding;
+    transition-duration: 0.5s;
+}
+
+.user-login:focus, .user-pass:focus, .user-email:focus{
+    padding-left: 5px;
+}
+
+.container-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-login{
+    width: fit-content;
+    background-color: var(--cor-azul);
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    padding: .5em 1em;
+    box-shadow: 0px 0px 2px #000;
+    cursor: pointer;
+}
+
+.btn-cadastro{
+    width: fit-content;
+    border: 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: var(--cor-azul);
+}   
+
+.container-btn a{
+    text-decoration: none;
+}
+
+.container-btn p{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+
