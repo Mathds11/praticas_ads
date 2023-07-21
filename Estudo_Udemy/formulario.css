@@ -67,6 +67,7 @@ input:invalid:focus, textarea:invalid:focus{
     border-bottom: 2px solid snow;
     color: white;
     outline: 0;
+    resize: none;
 }
 
 input[type=submit]{
