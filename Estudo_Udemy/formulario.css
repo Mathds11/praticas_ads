@@ -1,0 +1,78 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    font-family: Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(35, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: rgb(26, 24, 24);
+    padding: 1rem;
+    width: 80%;
+    min-width: 30rem;
+    max-width: 35rem;
+}
+
+.container{
+    font-size: 1.2rem;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0; 
+    margin: 0;
+    border: none;
+}
+
+.container legend{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+input{
+    color: white;
+    background-color: black;
+    margin-bottom: 1rem;
+    border: 0;
+    border-bottom: 2px solid snow;
+    padding: .5rem;
+    outline: 0;
+}
+
+input:focus, #info:focus{
+    background-color: #2a2727;
+}
+
+input:valid:focus, #info:valid:focus{
+    border-bottom-color: green;
+}
+
+input:invalid:focus, textarea:invalid:focus{
+    border-bottom-color: brown;
+}
+
+#info{
+    margin-bottom: 1.5rem;
+    background-color:  rgb(35, 36, 36);
+    border: 0;
+    border-bottom: 2px solid snow;
+    color: white;
+    outline: 0;
+}
+
+input[type=submit]{
+    width: fit-content;
+    margin-left: auto;
+    padding: .8rem;
+    background-color:  rgb(35, 36, 36);
+    border: 0;
+}
