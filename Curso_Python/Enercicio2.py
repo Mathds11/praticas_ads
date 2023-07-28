@@ -8,11 +8,11 @@ try:
     num_int = int(num)
 
     if (num_int % 2) == 0:
-        print(f'Numero {num_int} é PAR')
+        print(f'Numero {num_int} é PAR\n')
     else:
-        print(f'Numero {num_int} é IMPAR')
+        print(f'Numero {num_int} é IMPAR\n')
 except:
-    print('Informe que não é um número inteiro')
+    print('Informe que não é um número inteiro\n')
 
 
 """
@@ -25,15 +25,15 @@ try:
     horario_int = int(horario)
 
     if horario_int >= 0 and horario_int <= 11:
-        print('\nBom dia!')
+        print('Bom dia!\n')
     elif horario_int >= 12 and horario_int <= 17:
-        print('\nBoa tarde!')
+        print('Boa tarde!\n')
     elif horario_int >= 18 and horario_int <= 23:
-        print('\nBoa noite!')
+        print('Boa noite!\n')
     else:
-        print('\nDigite um horário válido!')
+        print('Digite um horário válido!\n')
 except:
-    print('\nDigite somente números!')
+    print('Digite somente números!\n')
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
@@ -42,8 +42,8 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 """
 nome = input('Digite seu primeiro nome: ')
 if len(nome) <= 4:
-    print("\nSeu nome é curto")
+    print("Seu nome é curto")
 elif len(nome) >= 5 and len(nome) <= 6:
-    print('\nSeu nome é normal')
+    print('Seu nome é normal')
 else:
-    print('\nSeu nome é muito grande')
+    print('Seu nome é muito grande')
